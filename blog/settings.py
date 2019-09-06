@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '6d3(sne5y($8mtk4tg7z%b5^1)3ant^fs*2qd$teg_m_jk_hi-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["192.168.1.28"]
+ALLOWED_HOSTS = [""]
 
 
 # Application definition
@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'tr'
 
-TIME_ZONE = 'EUROPE/ISTANBUL'
+TIME_ZONE = 'Europe/Istanbul'
 
 USE_I18N = True
 
